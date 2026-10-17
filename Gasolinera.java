@@ -43,9 +43,9 @@ public class Gasolinera {
 
             double descuento = 0;
 
-            // CORRECCIÓN: Se cambió de 0.05 a 0.5 para aplicar el 50% de descuento
+            // Descuento del 5% si la carga es de 40 litros o más
             if (litros >= 40) {
-                descuento = importeOriginal * 0.5;
+                descuento = importeOriginal * 0.05;
                 cargasConDescuento++;
             }
 
